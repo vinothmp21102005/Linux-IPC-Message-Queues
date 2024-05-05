@@ -19,6 +19,8 @@ Write the C Program using Linux message queues API
 Execute the C Program for the desired output. 
 
 # PROGRAM:
+## Developed By:VINOTH M P
+## Reg No:212223240182
 
 ## C program that receives a message from message queue and display them
 ```
@@ -49,7 +51,9 @@ int main()
 	printf("Data send is : %s \n", message.mesg_text); 
 	return 0; 
 } 
-
+```
+reader.c
+```
 // C Program for Message Queue (Reader Process)
 #include <stdio.h>
 #include <sys/ipc.h>
@@ -81,11 +85,11 @@ int main()
 }
 
 
-
 ```
 
 ## OUTPUT
 
+![Screenshot 2024-05-05 222200](https://github.com/vinothmp21102005/Linux-IPC-Message-Queues/assets/145972215/9d983f90-8179-4463-be02-7abef8e7b337)
 
 
 
